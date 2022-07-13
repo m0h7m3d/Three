@@ -1,0 +1,140 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+    padding: 100px;
+  }
+  ::-webkit-scrollbar {
+    width: 11px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(121, 98, 98); 
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2196f3;
+    border-radius: 3px;
+  }
+a{
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.all{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(276px, 1fr));
+  grid-gap: 30px;
+}
+.temp{
+  background-color: #17186c;
+  padding: 26px;
+  color: white;
+}
+.temp .icon i{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.temp ul li{
+  margin-bottom: 30px;
+}
+.temp ul li a{
+  color: #ffffff9c;
+  padding: 8px;
+}
+.temp ul .cont{
+margin-bottom: 80px;
+}
+.temp ul .cont .contact{
+  background-color: #ffffff29;
+  border-radius: 9px;
+  padding-top: 8px;
+  padding-right: 28px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+.temp ul li a:hover{
+  background-color: #ffffff29;
+  border-radius: 9px;
+  padding-top: 8px;
+  padding-right: 28px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+.temp .text p{
+  font-size: 14px;
+  color: #9d9b9b;
+  margin-bottom: -11px;
+}
+.temp .text .one{
+  font-size: 16px;
+  line-height: 1.4;
+}
+.temp .text h3{
+  font-size: 14px;
+  color: #ddd7d7;
+  margin-bottom: -11px;
+  margin-left: 25px;
+}
+.pro .text h2{
+  font-size: 40px;
+  font-weight: 400;
+}
+.pro .text p{
+  font-size: 23px;
+  color: #777;
+  width: 194px;
+  margin-top: -23px;
+}
+.pro .inputs .name{
+  border-bottom: 2px solid #8f8a8a;
+  width: 222px;
+  padding: 13px;
+}
+.pro .inputs .name input{
+  border: white;
+}
+.pro .inputs .email{
+  border-bottom: 2px solid #8f8a8a;
+  width: 222px;
+  padding: 13px;
+}
+.pro .inputs .email input{
+  border: white;
+}
+.pro .inputs .email input:hover{
+  border: white;
+}
+.pro .inputs .textarea textarea{
+  border-radius: 0.5rem;
+  border: white;
+  resize: none;
+  color: white;
+  padding: 13px;
+  border-bottom: 2px solid #9d9b9b;
+}
+.pro .inputs .send{
+  width: 19%;
+}
+.pro .inputs .send input{
+  border: white;
+  background-color: white;
+  margin-top: 9px;
+  color: #17186c;
+  font-weight: 800;
+}
+.three{
+  margin-top: 155px;
+}
+.three .text p{
+  line-height: 1.5;
+  color: #777;
+}
